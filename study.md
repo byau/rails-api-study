@@ -32,6 +32,7 @@ Rails.
 
 ```md
 <!-- your answer here -->
+The model layers are the classes that talks to the database, such as SQL.  For examples, like saving or retriving data up to/from the database.
 ```
 
 ## Define Controller Responsiblities
@@ -41,6 +42,7 @@ in Rails.
 
 ```md
 <!-- your answer here -->
+The controller is the middle man between the view and the model.  They handle users requests, inputs/data submissions, cookies sessions, etc.  It helps control the data from model available to the view and help save/updates data from user to the model.
 ```
 
 ## Define Router Responsiblities
@@ -49,6 +51,7 @@ In your own words, define what the router does in Rails.
 
 ```md
 <!-- your answer here -->
+The router faciliate communications between servers and the controller. They can recognize and generate URLs, paths and sent them the controller.
 ```
 
 ## The Request-Response Cycle in Rails
