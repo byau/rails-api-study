@@ -61,4 +61,6 @@ the parts of Rails interact to produce and send a response.
 
 ```md
 <!-- your answer here -->
+When rails get a GET request to a particular URL, it send a request to the controller that ties to the information requested.  If such controller exist, the controller will take to the model to request the information, then relay back the response from the model (either the information or return an error).  the controller will send a response back to the server to produce a response.
+
 ```
